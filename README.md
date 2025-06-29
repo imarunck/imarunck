@@ -1,3 +1,13 @@
-### Hi there! 👋
+Hi there! 👋
+I'm Arun C Kallappanavar — a creative thinker exploring the intersection of design, language, and technology.
 
-[Arun C Kallappanavar](https://arunck.com/) here, a passionate Design & Tech Enthusiast dedicated to bringing ideas to life! Currently diving deep into the world of Graphics and Animation through my M.Sc. studies. My journey includes diverse projects, from Android app development to my latest venture: crafting innovative Kannada fonts. 🌟 Excited to collaborate and share my projects on GitHub, including [Anchu](https://github.com/imarunck/Anchu), a modern Kannada font, a curated [Kannada Font Library](https://github.com/imarunck/Kannada-Font-Library) a celebration of Kannada language and heritage. Join me on this creative journey! #OpenSource #Typography
+🎨 Passionate about type design and graphic design (web and app UI/UX)
+
+💻 M.Sc. Graphics & Animation student
+
+🌱 Building sustainable digital projects with a purpose
+
+✍️ I write thoughts, poems, and articles at blog.arunck.com
+
+👉 Most of my repositories are personal, practical experiments.
+Take a look — you might find something useful or inspiring!
