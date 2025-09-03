@@ -1,42 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>arunck.com</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun CK - Designer | Creative | Writer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="index.js"></script>
+  <!-- Icons CDN (FontAwesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Standard favicon -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+
+<!-- Android Chrome -->
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicons/android-chrome-512x512.png">
 </head>
 <body>
-  <header>
-    <h1>arunck.com</h1>
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <nav class="nav-icons">
+      <a href="http://blog.arunck.com" target="_blank" title="Blog"><i class="fa-solid fa-blog"></i></a>
+      <a href="https://github.com/imarunck" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/imarunck/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.behance.net/imarunck" target="_blank" title="Behance"><i class="fab fa-behance"></i></a>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
-      <div class="profile-photo">
-        <img src="https://firebasestorage.googleapis.com/v0/b/all-projects-5bb9d.appspot.com/o/imarunck%2Farunck.com%2FContact%20Page%2FDP%20100%20firebase.jpg?alt=media&token=cc91c332-f54a-4190-b1dd-647f3d97e882" alt="Arun C Kallappanavar" />
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="avatar">
+        <img src="assets/avatar.jpg" alt="Arun CK Avatar" />
       </div>
-      <h2>Arun CK</h2>
-      <h3>🎨 Creative. Graphic And Type Designer</h3>
-      <p class="intro">
-        I'm passionate about crafting stories through design and type.<br />
-        With a blend of creativity and precision, I bring ideas to life.<br />
-        I explore type, motion, and visual storytelling in everything I do.<br />
-        Every design I make reflects emotion, clarity, and purpose.<br />
-        Welcome to my space online, where creativity meets identity.
-      </p>
-
-      <div class="buttons">
-        <a href="https://blog.arunck.com" class="btn">📝 Visit My Blog</a>
-        <a href="https://instagram.com/imarunck" class="btn" target="_blank">📷 Instagram</a>
-        <a href="mailto:info@arunck.com" class="btn">✉️ Mail</a>
-        <a href="https://wa.me/918123257549" class="btn" target="_blank">💬 WhatsApp Me</a>
+      <div class="hero-text">
+        <h1>Arun CK</h1>
+        <p>Designer | Creative | Writer</p>
       </div>
     </div>
-  </main>
+  </section>
 
-  <footer>
-    <p>© Created by me with help of ChatGPT 🤝</p>
-  </footer>
+  <!-- About Me -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is Arun CK. My journey began with a foundation in Physics, Mathematics, and Electronics, which sparked a passion for logic and problem-solving. I went on to earn my Master's in Graphics and Animation, where I learned to merge my technical skills with creative expression. This unique combination allows me to create projects that are not only visually compelling but also technically robust. I specialize in <strong>graphic design, type design, and animation</strong>, with a strong focus on using technology to celebrate and preserve cultural heritage. I am driven by the belief that design can be a powerful tool for storytelling and community building.
+    </p>
+  </section>
+
+<!-- Projects Section -->
+<section class="projects">
+  <h2>My Projects</h2>
+  <div class="projects-carousel">
+    <div class="carousel-track">
+      <!-- Project cards will be injected here by JS -->
+    </div>
+    <button class="carousel-arrow left" aria-label="Previous">&#8592;</button>
+    <button class="carousel-arrow right" aria-label="Next">&#8594;</button>
+  </div>
+</section>
+
+  <!-- What I Do Section -->
+  <!-- What I Do Section -->
+<section class="what-i-do">
+  <h2>What I Do</h2>
+  <div class="dropdown">
+    <button class="dropdown-btn">Designer <i class="fa fa-chevron-down"></i></button>
+      <div class="dropdown-content">
+        <ul>
+          <li>Graphic Designer</li>
+          <li>Type Designer</li>
+          <li>UI Designer</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-btn">Creative <i class="fa fa-chevron-down"></i></button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Websites</li>
+            <li>Language Tools</li>
+            <li>Animations</li>
+          </ul>
+        </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-btn">Writer <i class="fa fa-chevron-down"></i></button>
+        <div class="dropdown-content">
+          <ul>
+            <li>Blogs</li>
+            <li>Articles</li>
+            <li>Poems</li>
+          </ul>
+        </div>
+    </div>
+</section>
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Get In Touch</h2>
+    <p>I'm always open to new collaborations and exciting projects. Let's connect!</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:info@arunck.com">info@arunck.com</a></li>
+      <li><strong>WhatsApp/Phone:</strong> <a href="https://wa.me/918123257549" target="_blank">+91-8123257549</a></li>
+      <li><strong>Location:</strong> Bengaluru, Karnataka</li>
+    </ul>
+  </section>
 </body>
+<footer class="site-footer" aria-label="Footer: Arun CK - Designer | Creative | Writer and more">
+  <div class="footer-content">
+
+    <div class="footer-meta">
+      <span>© <span id="footer-year"></span> Arun CK</span>
+      <span class="footer-note">Developed with AI in Bengaluru</span>
+    </div>
+  </div>
+</footer>
 </html>
